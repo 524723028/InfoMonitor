@@ -1,7 +1,1 @@
-Git is a distributed version control system.
-Git is a free software distributed under the GPL. 
-Git has a mutable index called stage.
-Git tracks changes of files.
-Creating a new branch is quick and simple.
-Testing the model of --on-ff.
-Testing restore workspace.
+这是《android手机状态监测系统》的移动端代码。
