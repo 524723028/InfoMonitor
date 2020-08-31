@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/corners_normal"
+        android:orientation="horizontal"
+        android:id= "@+id/linearLayout1">
+
+        <ImageView
+            android:id="@+id/appIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/apk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="8dp"
+            android:text="@string/intervaltx"
+            android:id = "@+id/textView1"/>
+
+        <EditText
+            android:id = "@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/interval"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/corners_normal"
+        android:id= "@+id/linearLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:id= "@+id/linearLayout2_1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="@string/infotype"
+                android:id="@+id/textView2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2_2"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Systeminfo"
+                android:textColor="#000000"
+                android:enabled="true"
+                android:checked="true"
+                android:id="@+id/systeminfoCheckBox"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:checked="true"
+                android:text="@string/cpuinfo"
+                android:textColor="#000000"
+                android:id="@+id/cpuinfoCheckBox"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout2_3">
+
+
+            <CheckBox
+                android:text="@string/SD"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:id="@+id/sdcardCheckBox"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:checked="true"/>
+
+            <CheckBox
+                android:text="@string/raminfo"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:id="@+id/raminfoCheckBox"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout2_4">
+
+
+            <CheckBox
+                android:text="@string/GPSinfo"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:id="@+id/GPSCheckBox"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:checked="true"/>
+
+            <CheckBox
+                android:text="@string/Netinfo"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:id="@+id/netinfoCheckBox"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:checked="true"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/space"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/space"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

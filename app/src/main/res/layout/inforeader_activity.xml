@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--定义一个头布局-->
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40.0dip">
+
+        <TextView
+            android:id="@+id/systemlabel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/systemtitle"
+            android:textColor="#000000"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/cpulabel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/cputitle"
+            android:textColor="#000000"
+            android:textSize="15.0dip" />
+
+        <TextView
+            android:id="@+id/sdlabel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/sdtitle"
+            android:textColor="#000000"
+            android:textSize="15.0dip" />
+
+        <TextView
+            android:id="@+id/ramlabel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/ramtitle"
+            android:textColor="#000000"
+            android:textSize="15.0dip" />
+
+        <TextView
+            android:id="@+id/gpslabel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/gpstitle"
+            android:textColor="#000000"
+            android:textSize="15.0dip" />
+
+        <TextView
+            android:id="@+id/netinfolabel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/netinfotitle"
+            android:textColor="#000000"
+            android:textSize="15.0dip" />
+
+    </LinearLayout>
+
+    <!--底部的指示器-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/cursor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:src="@drawable/cursor1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp">
+    </LinearLayout>
+
+    <!-- 存放fragment的容器-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

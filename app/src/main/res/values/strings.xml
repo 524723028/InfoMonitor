@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">InfoMonitor</string>
+
+    <string name="reader_item">InfoReader</string>
+    <string name="collector_item">InfoCollector</string>
+
+
+    <drawable name="rb_pressed">#D9D9D9</drawable>
+    <drawable name="rb_normal">#00000000</drawable>
+
+    <drawable name="clr_pressed">#D4D4D4</drawable>
+    <drawable name="clr_normal">#1874CD</drawable>
+
+    <string name="confirm">确定</string>
+
+    <!--infocollector related-->
+    <string name="intervaltx">Interval(s)</string>
+    <string name="interval">60</string>
+    <string name="infotype">Info Types</string>
+
+    <!--跟checkbox有关系 -->
+    <string name="Systeminfo">System Info</string>
+    <string name="cpuinfo">CPU</string>
+    <string name="SD">SD Storage</string>
+    <string name="raminfo">RAM</string>
+    <string name="GPSinfo">GPS</string>
+    <string name="Netinfo">Net Info</string>
+
+    <string name="space"></string>
+
+    <!--inreader related-->
+    <string name="systemtitle">System Info</string>
+    <string name="cputitle">CPU</string>
+    <string name="sdtitle">SD</string>
+    <string name="ramtitle">RAM</string>
+    <string name="gpstitle">GPS</string>
+    <string name="netinfotitle">NetInfo</string>
+
+    <string name="systemTv">SystemInfo:</string>
+    <string name="cpuTv">CPU:</string>
+    <string name="sdTv">SD:</string>
+    <string name="memTv">RAM:</string>
+    <string name="gpsTv">GPS:</string>
+    <string name="netinfoTv">NetInfo:</string>
+
+
+    <string name="getsysteminfo">Get SystemInfo</string>
+    <string name="getcpuinfo">Get CPU</string>
+    <string name="getsdinfo">Get SD</string>
+    <string name="getraminfo">Get RAM</string>
+    <string name="getgpsinfo">Get GPS</string>
+    <string name="getnetinfo">Get NetInfo</string>
+</resources>
